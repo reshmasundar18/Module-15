@@ -16,14 +16,22 @@ To write a Python program to build a binary tree with a root, left, and right no
 
 ---
 
-## PYTHON PROGRAM
+## PYTHON PROGRAM:
+```
+from binarytree import build
+l=[]
+size=int(input())
+for i in range(0, size):
+    l.append(input())
+root=build(l)
+print("Binary Tree : ")
+for i in root.values:
+    print(i, '-->', end="")
 
 ```
-ENTER YOUR CODE
-```
 
-## OUTPUT
-```
-```
+## OUTPUT:
+<img width="711" height="386" alt="image" src="https://github.com/user-attachments/assets/69ce42bb-fd01-4daa-a84f-2cf8b139e726" />
 
-## RESULT
+## RESULT:
+Thus the python program to build a binary tree with a root, left, and right node using floating-point values was successfully executed.
